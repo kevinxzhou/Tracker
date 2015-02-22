@@ -32,6 +32,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+@SuppressWarnings("restriction")
 public class HomeScreen extends JFrame implements ActionListener {
 
 	private static final long serialVersionUID = 1L;
