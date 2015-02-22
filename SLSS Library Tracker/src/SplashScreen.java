@@ -5,10 +5,8 @@ import java.awt.GridBagConstraints;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import com.apple.eawt.Application;
-import com.sun.awt.AWTUtilities;
-
+//import com.apple.eawt.Application;
+//import com.sun.awt.AWTUtilities;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -28,8 +26,8 @@ public class SplashScreen extends JFrame implements ActionListener {
 		setUndecorated(true);
 		setBackground(transparent);
 		setIconImage(new ImageIcon("images/icon.png").getImage());
-		Application.getApplication().setDockIconImage(
-				new ImageIcon("images/icon.png").getImage());
+//		Application.getApplication().setDockIconImage(
+//				new ImageIcon("images/icon.png").getImage());
 		setLocationRelativeTo(null);
 		JPanel p1 = new JPanel();
 		p1.setBackground(transparent);

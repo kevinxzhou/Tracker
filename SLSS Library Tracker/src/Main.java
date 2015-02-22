@@ -16,7 +16,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JTextPane;
-import com.apple.eawt.Application;
+//import com.apple.eawt.Application;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
