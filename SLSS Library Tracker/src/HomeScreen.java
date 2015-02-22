@@ -217,6 +217,8 @@ public class HomeScreen extends JFrame implements ActionListener {
 		getContentPane().add(panel, gbc_panel);
 
 		tf2 = new JTextField();
+		tf1.setForeground(Color.LIGHT_GRAY);
+		tf1.setBackground(Color.DARK_GRAY);
 		tf2.setText("Enter a Name or Student Number");
 		tf2.setBounds(6, 6, 230, 28);
 		panel.add(tf2);
